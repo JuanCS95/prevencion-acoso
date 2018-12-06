@@ -7,6 +7,7 @@
 
 Explicar aquí cómo instalar lo siguiente:
 * JDK 1.8
+
 -Antes de la instalacion de JDK, se necesitan abilitar repositorios adicionales. Con estas lineas se instalan los repositorios y java
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
