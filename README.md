@@ -1,4 +1,4 @@
-> Incluir aquí las medallas de Waffle y Travis.
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/ingsw-sarmiento/libro-matriz-digital.svg?columns=backlog)](https://waffle.io/JuanCS95/prevencion-acoso)
 
 # Prevención acoso
 
