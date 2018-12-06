@@ -1,4 +1,5 @@
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/ingsw-sarmiento/libro-matriz-digital.svg?columns=backlog)](https://waffle.io/JuanCS95/prevencion-acoso)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/JuanCS95/prevencion-acoso.svg?columns=backlog)](https://waffle.io/JuanCS95/prevencion-acoso)
+[![Build Status](https://travis-ci.org/JuanCS95/prevencion-acoso.svg?branch=master)](https://travis-ci.org/JuanCS95/prevencion-acoso)
 
 # Prevención acoso
 
