@@ -6,6 +6,8 @@ import org.hibernate.annotations.Type;
 
 @Entity
 public class Telefono extends Persistible {
+
+	private static final long serialVersionUID = 1L;
 	private String nombre;
 	@Type(type="text")
 	private String descripcion;
