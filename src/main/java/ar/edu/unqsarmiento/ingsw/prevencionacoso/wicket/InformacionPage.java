@@ -22,9 +22,6 @@ public class InformacionPage extends LayoutPage {
 	public void listadoTelefonos() {
 		this.add(new ListView<Telefono>("telefonos", new PropertyModel<>(this.controller, "telefonos")) {
 
-			/**
-			 * 
-			 */
 			private static final long serialVersionUID = 1L;
 
 			@Override
