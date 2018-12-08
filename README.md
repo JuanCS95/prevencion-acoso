@@ -52,8 +52,8 @@ Opcionalmente, haga click derecho en el archivo y presione crear accesso directo
 
 ## Configuración del entorno
 
-Explicar aquí cómo hacer lo siguiente:
 * Crear la base de datos.
+
 Para crear una base de datos
 -Abra una consola
 -entre en Mysql con:
@@ -61,7 +61,9 @@ Mysql -u root -proot
 -incregre:
 create database nombreDeBase;
 * Cargar los datos iniciales.
+
 Para cargar los datos iniciales, use el archivo DataGenerator para declarar los objetos a guardar en la base de datos.
 Sobre el archivo GenerateDataMain use el boton derecho, vaya a run as y use Java Aplicacion
 * Importar el proyecto en Eclipse.
+
 Para importar un proyecto vaya a file, import en eclipse, luego elija el tipo de proyecto que quiere importar, busque el proyecto en su directorio antes de apretar finalizar
