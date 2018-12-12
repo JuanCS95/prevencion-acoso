@@ -9,36 +9,39 @@ Explicar aquí cómo instalar lo siguiente:
 * JDK 1.8
 
 -Antes de la instalacion de JDK, se necesitan abilitar repositorios adicionales. Con estas lineas se instalan los repositorios y java
+```
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
-
+```
 -Use el comando siguiente para asegurarse de configurar la version de Java por defecto
-
+```
 sudo apt-get install oracle-java8-set-default
-
+```
 -luego de instalar java, use este comando para verificar que se instalo y para verificar la version
+```
 java -version
+```
 * Maven
 
 -Para instalar primero actualize los paquetes con 
-
+```
 sudo apt update
-
+```
 -Luego instale Maven usando
-
+```
 sudo apt install maven
-
+```
 -Luego, para verificar la instalacion utilize
-
+```
 mvn -version
-
+```
 * MySQL
-
+```
 sudo apt-get update
 sudo apt-get install mysql-server
 mysql_secure_installation
-
+```
 * Eclipse
 
 Para instalar Eclipse, descargue desde el link http://www.eclipse.org/downloads/index.php
@@ -60,13 +63,13 @@ Para crear una base de datos
 -Abra una consola
 
 -entre en Mysql con:
-
+```
 Mysql -u root -proot
-
+```
 -incregre:
-
+```
 create database nombreDeBase;
-
+```
 * Cargar los datos iniciales.
 
 Para cargar los datos iniciales, use el archivo DataGenerator para declarar los objetos a guardar en la base de datos.
