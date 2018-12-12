@@ -20,6 +20,7 @@ sudo apt-get install oracle-java8-set-default
 -luego de instalar java, use este comando para verificar que se instalo y para verificar la version
 java -version
 * Maven
+
 -Para instalar primero actualize los paquetes con 
 
 sudo apt update
