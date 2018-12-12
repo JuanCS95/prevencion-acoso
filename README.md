@@ -10,18 +10,9 @@ Explicar aquí cómo instalar lo siguiente:
 
 -Antes de la instalacion de JDK, se necesitan abilitar repositorios adicionales. Con estas lineas se instalan los repositorios y java
 ```
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
+$ sudo apt-get install openjdk-8-jre
 ```
--Use el comando siguiente para asegurarse de configurar la version de Java por defecto
-```
-sudo apt-get install oracle-java8-set-default
-```
--luego de instalar java, use este comando para verificar que se instalo y para verificar la version
-```
-java -version
-```
+
 * Maven
 
 -Para instalar primero actualize los paquetes con 
