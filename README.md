@@ -35,18 +35,36 @@ mysql_secure_installation
 ```
 * Eclipse
 
-Para instalar Eclipse, descargue desde el link http://www.eclipse.org/downloads/index.php
-
-Haga click derecho en el paquete que se descargue
-
-Extraer el contenido en una carpeta
-
-Haga doble click en el archivo Eclipse.exe para abrir Eclipse
-
-Opcionalmente, haga click derecho en el archivo y presione crear accesso directo 
-
+Abra un terminal (Ctrl-Alt-T) y cámbielo a permisos de raíz ingresando:
+```
+$ sudo su
+```
+Asegúrese de que Eclipse Indigo NO esté instalado en su Ubuntu. Es posible que deba eliminar los paquetes "eclipse" y "eclipse-platform" para deshacerse de ellos.
+```
+# apt-get remove eclipse eclipse-platform
 ## Configuración del entorno
+```
+Instala un Java 1.7 JDK
+Instale Maven
 
+Deshazte del acceso de root ya que no lo necesitarás más:
+```
+# salida
+```
+
+Descargar Eclipse. Las versiones "para desarrolladores Java EE", "para desarrolladores Java" y "para desarrolladores RCP y RAP" parecen funcionar. Actualmente, el archivo que se probó para trabajar está (tenga en cuenta que es para la versión de Ubuntu de 64 bits) disponible en esta página
+Extraiga el archivo de instalación de Eclipse en su directorio de inicio:
+```
+$ cd
+$ tar -xzvf <ruta / a / tu-archivo-tar>
+```
+Aumente la memoria para la instalación de Eclipse modificando el archivo ~ / eclipse / eclipse.ini.
+Cambie la configuración de -Xmx (línea 20) a al menos 1G, se recomienda 2GB. (es decir, -Xmx2048m).
+Cambie el -XX: MaxPermSize (línea 18) a un máximo de 512 m. Si tiene el ajuste -Xmx establecido en 1G, le sugiero que utilice un valor más bajo, por ejemplo, 300 m.
+Ejecutar el Eclipse:
+```
+$ ~ / eclipse / eclipse
+```
 * Crear la base de datos.
 
 Para crear una base de datos
