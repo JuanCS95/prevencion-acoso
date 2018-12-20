@@ -75,7 +75,7 @@ Para crear una base de datos
 ```
 Mysql -u root -proot
 ```
--incregre:
+-ingrece:
 ```
 create database nombreDeBase;
 ```
